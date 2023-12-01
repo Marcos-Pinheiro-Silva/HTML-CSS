@@ -20,31 +20,38 @@ HTML, body {
     background-color: rgb(49, 49, 49);
     min-height: 100vh;
 }
-
+/******************************************************************************************************/
 header {
+
     background-color: black;
     color: aliceblue;
     text-align: center;
 }
 
 header > h1 {
+
     padding-top: 50px;
     font-variant: small-caps;
 }
 
 header > p {
+
     padding-bottom: 50px;
 }
+
 header > a, footer > a {
+
     color: aliceblue;
     text-decoration: none;
     font-weight: bolder;
 }
 header a:hover, footer a:hover {
+
     text-decoration: underline;
 }
-
+/******************************************************************************************************/
 section {
+
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left:30px ;
@@ -53,11 +60,13 @@ section {
 }
 
 .normal {
+
     background-color: rgb(109, 109, 109);
     color: black;
 }
 
 .imagem {
+
     background-color: black;
     color: white;
     background-image: url(imagens/background001.jpg);
@@ -66,6 +75,7 @@ section {
     
 }
 .imagem > p {
+
     background-color: rgba(70, 70, 70, 0.411);
     width: 400px;
     padding: 10px;
@@ -76,7 +86,7 @@ section {
 
 
 
-
+/******************************************************************************************************/
 footer {
     background-color: black;
     text-align: center;
