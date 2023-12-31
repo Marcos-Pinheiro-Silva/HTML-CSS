@@ -1,0 +1,41 @@
+* { margin: 0;
+    padding: 0;}
+
+table {
+    border-collapse: collapse;}
+
+caption {
+    border: 1px solid black; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top:10px ;
+    padding-bottom:10px ;}
+
+th {
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:10px ;
+    padding-right:10px ;}
+
+td {
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:10px ;
+    padding-right:10px ;
+}
+
+.cnome {
+    background-color: rgb(13, 0, 255);
+}
+
+.cgrupo {
+    background-color: red;
+}
