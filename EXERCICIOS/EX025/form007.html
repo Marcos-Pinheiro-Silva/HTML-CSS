@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="est" id="iest">
+                <optgroup label="Região Sudeste">
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP" selected>São Paulo</option> <!--Pré-definido a região de sao paulo com o SELECT-->
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="CE">Ceará</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="lstprof">Profissões</label> <!--Comando para o usuário inserir dados ou escolher os pré-selecionados-->
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option >ADMINISTRADOR</option>
+                <option >CONTABILISTA</option>
+                <option >DESENVOLVEDOR</option>
+                <option >MEDICO</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem</label> <!--Inserir campo de texto e use o método POST-->
+            <br>
+            <textarea name="imsg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Cancelar">
+        </p>
+    </form>
+</body>
+</html>
