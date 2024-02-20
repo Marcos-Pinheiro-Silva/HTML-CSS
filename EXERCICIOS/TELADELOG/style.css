@@ -1,0 +1,69 @@
+@charset "UTF-8";
+ * {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    background-image: url(fundo-gradiente-escuro-com-espaco-de-copia_53876-99548.avif);
+    height: 98vh; /*Uso total da altura da página*/
+    background-repeat: no-repeat;
+    background-position: center center; /*Posição da imagem no background*/
+    background-size: cover; /* Usa toda a pagina para enquadrar toda imagem*/
+    background-attachment: fixed; 
+            /*Declaçação background: color,image. position, repeart, [zine]não está funcionado ainda, attachament*/       
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#login {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+#ilog {
+    background-color: #2D2B3C;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    width: 300px;
+}
+
+#ipas {
+    background-color: #2D2B3C;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 10px; 
+    border-radius: 3px;
+    width: 300px;
+}
+ 
+#sub {
+    background-image: linear-gradient(to top, #3154a1cb,#5891D8, #6FB4DE);
+    color: white;
+    padding: 5px; 
+    margin-top: 10px;
+    padding: 10px;
+    width: 323px;
+    border-radius: 3px;
+    border-style: none;
+}
+
+#sub:hover {
+    background-image: linear-gradient(to right, #6FB4DE, #5891D8, #3154a1cb);
+}
+
+
+
+
+ 
+ 
