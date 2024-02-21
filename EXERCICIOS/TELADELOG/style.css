@@ -19,9 +19,10 @@ body {
 h1 {
     text-align: center;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#login {
+#login{
     position: absolute;
     top: 50%;
     left:50%;
@@ -33,25 +34,28 @@ h1 {
     background-color: #2D2B3C;
     color: #ffffff;
     padding: 10px;
-    margin-top: 10px;
     border-radius: 3px;
     width: 300px;
+    text-align: center;
+    border-style: groove;
 }
 
 #ipas {
     background-color: #2D2B3C;
     color: #ffffff;
+    width: 300px;
     padding: 10px;
     margin-top: 10px; 
     border-radius: 3px;
-    width: 300px;
+    text-align: center;
+    border-style: groove;
 }
  
 #sub {
     background-image: linear-gradient(to top, #3154a1cb,#5891D8, #6FB4DE);
     color: white;
-    padding: 5px; 
     margin-top: 10px;
+    margin-left: 1px;
     padding: 10px;
     width: 323px;
     border-radius: 3px;
@@ -61,8 +65,17 @@ h1 {
 #sub:hover {
     background-image: linear-gradient(to right, #6FB4DE, #5891D8, #3154a1cb);
 }
-
-
+#wpp {
+    background-image: url(410199-PD37U2-851.jpg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 44%;
+    
+ }
+ 
 
 
  
