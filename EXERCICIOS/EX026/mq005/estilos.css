@@ -19,15 +19,15 @@ header > h1 {
     text-align: center;
 }
 
-.material-symbols-outlined {
-    background-color: rgb(148, 148, 148);
+i#burguer {
+    background-color: rgb(75, 75, 75);
     color: white;
     display: block;
     text-align: center;
     padding: 10px;
 }
 
-.material-symbols-outlined:hover{
+i#burguer:hover{
     background-color: white;
     color: black;
     cursor: pointer
